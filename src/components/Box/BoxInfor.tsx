@@ -16,7 +16,7 @@ import {
 } from './styled';
 
 // icons
-import { AiOutlineInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { AiOutlineInstagram } from 'react-icons/ai'
 
 // Components
 import Input from '../Forms/Input';
@@ -117,18 +117,18 @@ const BoxInfor:React.FC<BoxInforType> = ({title, body, contact, projects, tecs})
                 contact && (
                     <ContactStyled>
                         <SociaisStyled>
-                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/leodeymison_alcantara/">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/isa_ramos_1/">
                                 <AiOutlineInstagram />
                                 Instagram
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/leodeymison">
+                            {/* <a target="_blank" rel="noreferrer" href="https://github.com/leodeymison">
                                 <AiFillGithub />
                                 GitHub
                             </a>
                             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/leodeymison/">
                                 <AiFillLinkedin />
                                 LinkedIn
-                            </a>
+                            </a> */}
                         </SociaisStyled>
                         <FormStyled ref={form} onSubmit={sendEmail}>
                             <Input type="text" placeholder={contact.name} name="name" />
