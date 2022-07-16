@@ -50,9 +50,9 @@ const Navbar:React.FC<NavbarType> = ({langParams, setLang, theme, toggleTheme, l
             <BoxPeopleStyled>
                 <img 
                     src={author} 
-                    alt="Foto do leodeymison alcantara" />
+                    alt="Foto do Ana Isa" />
                 <br />
-                <h1>Leodeymison A.</h1>
+                <h1>Ana Isa</h1>
                 <p>{langParams.job}</p>
             </BoxPeopleStyled>
             <MenuStyled>

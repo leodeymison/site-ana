@@ -5,7 +5,7 @@ import Tecs from './tecs'
 var ptbr:LangsType = {
     title: "pt-br",
     navbar: {
-        job: "Desenvolvedor FullStack",
+        job: "Vendedora",
         menu: [
             {
                 name: "Home",
@@ -29,10 +29,7 @@ var ptbr:LangsType = {
         who: {
             title: "Quem sou eu?",
             body: `
-                Sou um programador FullStack apaixonado por criar ferramentas que mudam vidas e um 
-                viciado em conhecimento. 
-                A mente que se abre a uma nova ideia jamais 
-                voltará ao seu tamanho original - Albert Einstein
+            Sou apaixonada por desafios, e um deles foi na área das vendas, não me via antes onde estou, mas agora sei a importância de uma venda e aprender a gostar dessa área tão ampla e que me ensina a cada dia.
             `
 
         },

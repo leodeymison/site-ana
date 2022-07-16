@@ -5,7 +5,7 @@ import Tecs from './tecs';
 const en:LangsType = {
     title: "en",
     navbar: {
-        job: "FullStack develop",
+        job: "Saleslady",
         menu: [
             {
                 name: "Home",
@@ -29,8 +29,7 @@ const en:LangsType = {
         who: {
             title: "Who am I?",
             body: `
-            I am a FullStack programmer passionate about creating life-changing 
-            tools and a knowledge addict. The mind that opens itself to a new idea will never return to its original size - Albert Einstein
+            I am passionate about challenges, and one of them was in the sales area, I did not see myself before where I am, but now I know the importance of a sale and learn to like this area so wide and that teaches me every day.
             `
         },
         about: {
